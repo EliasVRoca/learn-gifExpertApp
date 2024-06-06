@@ -16,9 +16,8 @@ export const GitExpertApp = () => {
       <h1 className="font-medium text-xl">GifExpertApp</h1>
 
       <AddCategory onNewCategory={onAddCategory} />
-
-      {category.map(item => (<li key={item}>{item}</li>))}
     </div>
+    {category.map(item => (<li key={item}>{item}</li>))}
     <GifGrid/>
   </>
   
